@@ -9,6 +9,12 @@ if(!isset($_SESSION['admin_id'])){
    header('location:login_form.php');
 }
 
+if(isset($_GET['logout'])){
+   unset($admin_id);
+   session_destroy();
+   header('location:login.php');
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -40,8 +46,8 @@ if(!isset($_SESSION['admin_id'])){
          }
       ?>
       <h3><?php echo $fetch['name']; ?></h3>
-      <a href="logout.php" class="delete-btn">logout</a>
-      <!--<a href="admin_page.php?logout=<?php// echo $admin_id; ?>" class="delete-btn">logout</a>-->
+      <!--<a href="logout.php" class="delete-btn">logout</a> -->
+      <a href="admin_page.php?logout=<?php echo $admin_id; ?>" class="delete-btn">logout</a>
       <p>new <a href="login.php">login</a> or <a href="register.php">register</a></p>
    </div>
 
