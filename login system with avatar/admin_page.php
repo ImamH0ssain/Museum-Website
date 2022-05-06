@@ -40,8 +40,8 @@ if(!isset($_SESSION['admin_id'])){
          }
       ?>
       <h3><?php echo $fetch['name']; ?></h3>
-      <a href="update_profile.php" class="btn">update profile</a>
-      <a href="admin_page.php?logout=<?php echo $admin_id; ?>" class="delete-btn">logout</a>
+      <a href="logout.php" class="delete-btn">logout</a>
+      <!--<a href="admin_page.php?logout=<?php// echo $admin_id; ?>" class="delete-btn">logout</a>-->
       <p>new <a href="login.php">login</a> or <a href="register.php">register</a></p>
    </div>
 
