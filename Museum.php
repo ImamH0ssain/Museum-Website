@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html> 
-	<head>
+<html><head>
 	   	<title>The Museum</title>
 	 	<link rel="stylesheet" media="all" href="./a/css_jNyaXmPK6wSVdbxMzJ_J68Xqx79noguoc4I0PSTaTEY.css">
 		<link rel="stylesheet" media="screen" href="./a/css_8FhP5eQ7moywdgad9rHnZWXTPnbyaFSM-lgwnYpUl_c.css">
@@ -72,6 +71,12 @@
         	</a>
       </li>
             <li class="menu__item menu__item--expanded menu__item--level-0" role="none" aria-expanded="false">
+			<a class="menu__link menu__link--level-0 menu__link--expanded js-drilldown-button" href="antique.php" role="menuitem">
+	          	<span style="color:black;font-weight: bold;">
+	            Collection
+	          	</span>
+        	</a>
+      </li><li class="menu__item menu__item--expanded menu__item--level-0" role="none" aria-expanded="false">
 			<a class="menu__link menu__link--level-0 menu__link--expanded js-drilldown-button" href="about.php" role="menuitem">
 	          	<span style="color:black;font-weight: bold;">
 	            About Us
@@ -194,7 +199,7 @@
 
 
 
-  </div>
+  </main></div>
 
 
     <div class="layout-content">
@@ -327,8 +332,52 @@ to the demonic</strong>
   </div>
   </div>        </div>
       
-	  <?php  include 'example.php'; 
-	  ?>
+	  
+
+<title>Your slider in a simple web page</title>
+
+<style>
+body { background-color: #fff; color: #000; padding: 0; margin: 0; }
+.container { width: 1408px; margin: auto; padding-top: 1em; }
+.container .ism-slider { margin-left: auto; margin-right: auto; }
+</style>
+
+<link rel="stylesheet" href="ism/css/my-slider.css">
+<script src="ism/js/ism-2.2.min.js"></script>
+
+
+
+<div class="container">
+
+<div class="ism-slider" data-play_type="loop" data-interval="3000" data-radio_type="thumbnail" id="my-slider"><div class="ism-frame">
+  <ol class="ism-slides" style="width: 500%; perspective: 1000px; backface-visibility: hidden; transform: translateX(-1408px);">
+    <li class="ism-slide ism-slide-0" style="width: 20%; left: 0%;">
+      <div class="ism-img-frame"><img src="ism/image/slides/_u/1651517573420_396981.jpg" class="ism-img"></div>
+      <div class="ism-caption ism-caption-0" style="visibility: hidden;">Painting</div>
+    </li>
+    <li class="ism-slide ism-slide-1" style="width: 20%; left: 20%;">
+      <div class="ism-img-frame"><img src="ism/image/slides/_u/1651517592690_756787.png" class="ism-img"></div>
+      <div class="ism-caption ism-caption-0 ism-caption-anim" style="visibility: visible;">Misc</div>
+    </li>
+    <li class="ism-slide ism-slide-2" style="width: 20%; left: 40%;">
+      <div class="ism-img-frame"><img src="ism/image/slides/_u/1651517588094_929516.jpg" class="ism-img"></div>
+      <div class="ism-caption ism-caption-0" style="visibility: hidden;">Scalpture</div>
+    </li>
+    <li class="ism-slide ism-slide-3" style="width: 20%; left: 60%;">
+      <div class="ism-img-frame"><img src="ism/image/slides/_u/1651517582994_10748.jpg" class="ism-img"></div>
+      <div class="ism-caption ism-caption-0" style="visibility: hidden;">Pottery</div>
+    </li>
+    <li class="ism-slide ism-slide-4" style="width: 20%; left: 80%;">
+      <div class="ism-img-frame"><img src="ism/image/slides/_u/1651517600861_264266.png" class="ism-img"></div>
+      <div class="ism-caption ism-caption-0" style="visibility: hidden;">War Antique</div>
+    </li>
+  </ol><div class="ism-pause-button">&nbsp;</div><div class="ism-button ism-button-prev">&nbsp;</div><div class="ism-button ism-button-next">&nbsp;</div>
+</div><ul class="ism-radios ism-radios-as-thumbnails"><li class="ism-radio-0"><input type="radio" name="ism-radio" class="ism-radio" id="ism-radio-0" checked="checked"><label class="ism-radio-label" for="ism-radio-0"></label></li><li class="ism-radio-1"><input type="radio" name="ism-radio" class="ism-radio" id="ism-radio-1" checked="checked"><label class="ism-radio-label" for="ism-radio-1"></label></li><li class="ism-radio-2 active"><input type="radio" name="ism-radio" class="ism-radio" id="ism-radio-2" checked="checked"><label class="ism-radio-label" for="ism-radio-2"></label></li><li class="ism-radio-3"><input type="radio" name="ism-radio" class="ism-radio" id="ism-radio-3" checked="checked"><label class="ism-radio-label" for="ism-radio-3"></label></li><li class="ism-radio-4"><input type="radio" name="ism-radio" class="ism-radio" id="ism-radio-4" checked="checked"><label class="ism-radio-label" for="ism-radio-4"></label></li></ul></div>
+<p class="ism-badge" id="my-slider-ism-badge"><a class="ism-link" href="http://imageslidermaker.com" rel="nofollow">generated with ISM</a></p>
+
+</div>
+
+
 
 
 
@@ -581,8 +630,8 @@ Last entry: 16.00&nbsp;(Fridays: 19.30)</p>
             
         </ul>
   
-              </li>
-        </ul>
+              
+        
   
 
 
@@ -600,4 +649,4 @@ Last entry: 16.00&nbsp;(Fridays: 19.30)</p>
   </footer>
 
 
-</body></html>
+</div></div></div></div></div></div></div></body></html>
